@@ -1,0 +1,18 @@
+{
+  "name": "vivi",
+  "version": "1.0.0",
+  "description": "Morden Slack assistant for your engineering teams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Avash027",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.11.3",
+    "@slack/web-api": "^6.7.2",
+    "dotenv": "^16.0.1",
+    "pg": "^8.7.3",
+    "uniqid": "^5.4.0"
+  }
+}
